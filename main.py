@@ -4,6 +4,8 @@ import nltk
 from nltk.corpus import stopwords
 import string
 from nltk.stem.porter import PorterStemmer
+nltk.download('stopwords')
+nltk.download('punkt')
 ps = PorterStemmer()
 
 def transform_text(text):
